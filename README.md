@@ -4,7 +4,12 @@ This repository provides basic codes for reproducing RAN2I on simulated data.
 
 ## Environment
 
-
+```
+conda create -n RAN2I python=3.8
+conda activate RAN2I
+conda install -c astra-toolbox astra-toolbox
+pip install -r reqirements.txt
+```
 
 ## Dataset
 
