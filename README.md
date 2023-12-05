@@ -4,6 +4,7 @@ This repository provides basic codes for reproducing RAN2I on simulated data.
 
 ## Environment
 
+### Conda environment:
 ```
 conda create -n RAN2I python=3.8
 conda activate RAN2I
