@@ -1,6 +1,6 @@
 ﻿# Rotational Augmented Noise2Inverse
 
-This repository provides basic codes for reproducing RAN2I on simulated data.
+This repository provides basic codes for reproducing RAN2I on simulated CT data.
 
 ## Environment
 
