@@ -46,19 +46,19 @@ Run `convert_dicom_to_npy.py` to obtain normalized numpy data
 
 ### Split the sinograms and geometry
 
-Run `split_preprocess.py` to split the sinograms and geometry angularly 
+`physics.py` shows the process of splitting the sinograms and geometry angularly 
 based on [ASTRA Toolbox](https://www.astra-toolbox.com/).
-The split data are used for training.
 
-### Train and test a model
+### Evaluate RAN2I
 
-Run `train.py` to train a new model. 
+Run `python demo_RAN2I.py` in the terminal to evaluate a pre-trained RAN2I model. 
 
-Run `test.py` to evaluate the pre-trained models.
 We provide two pre-trained models in folder `weights`, 
 which were obtained with different sampling views (512 and 1024) 
 and the same photon counts (1e4) in the training. 
-We also provide one preprocess split test data in folder `data`.
+We also provide one preprocess test data in folder `data`.
+
+### Train a new model
 
 
 
