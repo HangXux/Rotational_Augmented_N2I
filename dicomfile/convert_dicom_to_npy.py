@@ -72,7 +72,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--data_path', type=str, default='./Training_Image_Data_B30/')
-    parser.add_argument('--save_path', type=str, default='../data/img_np')
+    parser.add_argument('--save_path', type=str, default='../data/test_data')
     parser.add_argument('--mm', type=int, default=3)
     parser.add_argument('--norm_range_min', type=float, default=-1024.0)
     parser.add_argument('--norm_range_max', type=float, default=3072.0)
