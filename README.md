@@ -14,7 +14,7 @@ pip install -r reqirements.txt
 ```
 
 ## Dataset
-The data for simulation are from [AAPM dataset](https://aapm.app.box.com/s/eaw4jddb53keg1bptavvvd1sf4x3pe9h/folder/145241239366)
+The data for simulation are from [AAPM dataset](https://aapm.app.box.com/s/eaw4jddb53keg1bptavvvd1sf4x3pe9h/folder/145241239366). We used full-dose images and [ASTRA Toolbox](https://www.astra-toolbox.com/) to simulate low-dose acquisition.
 
 
 ## Workflow
