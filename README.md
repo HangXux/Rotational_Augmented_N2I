@@ -58,8 +58,6 @@ which were obtained with different sampling views (512 and 1024)
 and the same photon counts (1e4) in the training. 
 We also provide one preprocess test data in folder `data`.
 
-### Train a new model
-
 
 
 
